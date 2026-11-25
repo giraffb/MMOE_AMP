@@ -63,4 +63,4 @@ The original evaluation and prediction code reads training features to refit MAC
 
 ## Data availability
 
-Due to file size, precomputed training, validation and test feature files and the sORF sequence files used for large-scale screening have not been included in this release. These files will be uploaded progressively after the paper becomes public. Full screening reproduction requires the original sORF inputs and corresponding features.
+The AMP and non-AMP datasets used for model training, validation, and testing, together with the MIC datasets, are provided in the datatset/ directory. Precomputed ESM-C embeddings, MACREL descriptors, and sequence encodings are not included due to their large file sizes. These features can be regenerated using the feature-generation code provided in this repository.
